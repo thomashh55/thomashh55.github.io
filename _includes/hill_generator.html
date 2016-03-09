@@ -1,0 +1,54 @@
+{% assign counter1 = 30 %}
+{% assign counter2 = 31 %}
+
+{% for riadky in (1..10) %}
+
+ {% for stlpce in (1..30) %}
+   
+  {% if stlpce > counter1 %}
+
+   <p style="display:inline">#</p>
+
+  {% else %}
+
+   <p style="display:inline">~</p>
+
+  {% endif %}
+
+ {% endfor %}
+
+
+ 
+ {% for stlpce in (31..60) %} 
+
+  {% if stlpce < counter2 %}
+
+   <p style="display:inline">#</p>
+
+  {% else %}
+
+   <p style="display:inline">~</p>
+ 
+  {% endif %}
+
+ {% endfor %}
+
+
+{% capture temp %}{{ counter1 | minus: 2 }}{% endcapture %}
+{% assign counter1 = temp %}
+{% assign counter1 = counter1 | plus: 0 %}
+
+
+{% capture temp %}{{ counter2 | plus: 3 }}{% endcapture %}
+{% assign counter2 = temp %}
+{% assign counter2 = counter2 | plus: 0 %}
+
+<p style="display:inline">{{ prva }}</p>
+
+{{ assign prva = counter1 }}
+{{ assign druha = counter2 }}
+
+<p style="display:inline">{{ prva }}</p>
+
+<p></p>
+{% endfor %}

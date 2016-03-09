@@ -1,7 +1,13 @@
 name: Hank Quinlan, Horrible Cop
 markdown: kramdown
-permalink: /blog/:year/:month/:day/:title
 excerpt_separator: <!--excerpt-->
+
+collections:
+  web_publication:
+    output: true
+
+  artificial_intelligence:
+    output: true
 
 defaults:
   -
@@ -9,3 +15,22 @@ defaults:
       path: "" 
     values:
       layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts" 
+    values:
+      layout: "post"
+  -
+    scope:
+      path: "" 
+      type: "web_publication"
+    values:
+      layout: "web_publications"
+  -
+    scope:
+      path: "" 
+      type: "artificial_intelligence"
+    values:
+      layout: "artificial_intelligence"
+

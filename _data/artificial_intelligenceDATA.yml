@@ -1,0 +1,19 @@
+Assignment_1:
+    hours_spent: 15
+    main_theme: "Inteligent agent"
+    points_count: 10/10
+
+Assignment_2:
+    hours_spent: 15
+    main_theme: "Depth search algorithm"
+    points_count: 10/10
+
+Assignment_3:
+    hours_spent: 25
+    main_theme: "Evolutionary algorithm"
+    points_count: 8/10
+
+Assignment_4:
+    hours_spent: 15
+    main_theme: "Production system"
+    points_count: 10/10
