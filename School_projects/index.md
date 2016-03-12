@@ -1,12 +1,16 @@
 ---
-maintitle: School projects
-title1: 6.semester
-title2: 4.semester
+title: School projects
+semester6: 6.semester
+semester4: 4.semester
 ---
 
-# {{ page.maintitle }}
+# {{ page.title }}
+
+*FIIT - faculty of informatics and information technologies*
+
+**Projects are devided into subjects of different semesters:**
 	
-## {{ page.title1 }}
+## {{ page.semester6 }}
 {% for post in site.posts%}
 {% if post.category == '6.semester' and post.tag == 'SCHOOL' %}
 * {{ post.date | date_to_string }} - [{{ post.title }}]( {{ post.url }} ) 
@@ -16,7 +20,7 @@ title2: 4.semester
 {% endfor %}
 
 
-## {{ page.title2 }}
+## {{ page.semester4 }}
 {% for post in site.posts %}
 {% if post.category == '4.semester' and post.tag == 'SCHOOL' %}
 * {{ post.date | date_to_string }} - [{{ post.title }}]( {{ post.url }} ) 

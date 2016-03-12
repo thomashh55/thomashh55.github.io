@@ -3,11 +3,12 @@ title: "Artificial intelligence"
 tag: "SCHOOL"
 category: "4.semester"
 date: 2015-02-02
+description: "Subject of 4. semester in FIIT concerning implementation of AI algorithms"
 ---
 
 <img src="{{ site.url }}/Downloads/Obr3.jpg" alt="objdiagram">
 
-Subject concerning AI and means of its implementation.
+Oriented towards such AI algorithms like production system, evolutionary algorithms, search of possible solutions etc.
 
 <!--excerpt--> 
 

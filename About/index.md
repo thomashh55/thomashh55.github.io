@@ -13,4 +13,4 @@ STU, Bratislava.
 
 This is a blog about some of my [school activities](/School_projects) and [other interests](/Other_interests).
 
-*tu to chce fotku*
+

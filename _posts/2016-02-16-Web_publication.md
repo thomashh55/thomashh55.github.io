@@ -2,12 +2,13 @@
 title: "Web publication"
 tag: "SCHOOL"
 category: "6.semester"
-date: 2016-02-02
+date: 2016-02-16
+description: "Subject of 6. semester in FIIT, concerning web documents"
 ---
 
 <img src="{{ site.url }}/Downloads/Obr2.jpg" alt="objdiagram">
 
-Subject oriented towards XML,XSLT,.. languages and publication of documents on the internet.
+Oriented towards XML,XSLT,.. languages and publication of documents on the internet.
 
 <!--excerpt--> 
 

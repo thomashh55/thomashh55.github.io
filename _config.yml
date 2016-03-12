@@ -1,4 +1,4 @@
-name: Hank Quinlan, Horrible Cop
+name: Tomas Liscak
 markdown: kramdown
 excerpt_separator: <!--excerpt-->
 
@@ -7,6 +7,9 @@ collections:
     output: true
 
   artificial_intelligence:
+    output: true
+
+  cycling:
     output: true
 
 defaults:
@@ -24,13 +27,23 @@ defaults:
   -
     scope:
       path: "" 
+      type: "cycling"
+    values:
+      layout: "cycling"
+  -
+    scope:
+      path: "" 
       type: "web_publication"
     values:
+      teacher: "Marian Simko"
+      room: -1.42
       layout: "web_publications"
   -
     scope:
       path: "" 
       type: "artificial_intelligence"
     values:
+      teacher: "Ivan Kapustik"
+      room: 1.30b
       layout: "artificial_intelligence"
 

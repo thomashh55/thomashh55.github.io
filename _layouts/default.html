@@ -2,27 +2,26 @@
 	<html>
 		<head>
 			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
 			<link rel="stylesheet" type="text/css" href="/css/main.css">
 		</head>
 		<body>
 			<nav>
 	    		<ul>
-				<li><a href="/Home">Home</a></li>
+				<li><a href="/index.html">Home</a></li>
 			     <li><a href="/About">About</a></li>
 	        		<li><a href="/School_projects">School projects</a></li>
 		        	<li><a href="/Other_interests">Other interests</a></li>
 	    		</ul>
 			</nav>
 			<div class="container">
-			
+
 			{{ content }}
 			
-			</div><!-- /.container -->
+			</div>
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:thomashh55@gmail.com">email</a></li>
 	        		<li><a href="https://github.com/thomashh55">github.com/thomashh55</a></li>
 				</ul>
-			{{ page.content | number_of_words }} : words on the page </footer>
+			{{ page.content | number_of_words }}: words on the page </footer>
 		</body>

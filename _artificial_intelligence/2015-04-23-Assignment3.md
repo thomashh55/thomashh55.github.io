@@ -9,4 +9,4 @@ Objective was to traverse every empty place in map, which was covered by stones 
 
 It was achieved by evolutionary algorithm, which prefered best solutions in its population. 
 
-*[Here is the documentation]({{ site.url }}/artificial_intelligence/4.docx)*
+*[Here is the documentation]({{ site.url }}/artificial_intelligence/3.docx)*
