@@ -4,8 +4,8 @@ Assignment_1:
     points_count: unknown
 
 Assignment_2:
-    hours_spent: unknown
-    main_theme: unknown
+    hours_spent: 12
+    main_theme: "Docbook, xsl transformations"
     points_count: unknown
 
 Assignment_3:
