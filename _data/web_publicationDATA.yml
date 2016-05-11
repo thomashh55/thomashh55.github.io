@@ -1,14 +1,14 @@
 Assignment_1:
     hours_spent: 10
     main_theme: "Jekyll, Markdown, Git"
-    points_count: unknown
+    points_count: 5.5/6
 
 Assignment_2:
     hours_spent: 12
     main_theme: "Docbook, xsl transformations"
-    points_count: unknown
+    points_count: 5.5/6
 
 Assignment_3:
-    hours_spent: unknown
-    main_theme: unknown
+    hours_spent: 20
+    main_theme: XSD,XSL,XML
     points_count: unknown
