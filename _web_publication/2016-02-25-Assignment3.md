@@ -17,3 +17,5 @@ elementov a atributov ako note, description atd. Transformacia do html berie kaz
 pomocou xslt 2.0 a tagu resultdocument. Xsl subory transformacie do html a pdf oba includuju subory s parametrami, ako napr.
 titlefont a textcolor, a takisto includuju core.xsl ako subor spolocnych jadro transformacii. Css styl sa pouzil aj ako
 interny text v hlavicke pouzitim elementu style a aj ako interny text v elementoch pouzitim atributu style.
+
+link na zip subor zadania: <a href="{{ site.url }}/Downloads/Z3-xliscak.zip">zip subor</a>
